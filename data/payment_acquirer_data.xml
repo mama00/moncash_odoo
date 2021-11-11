@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="payment_acquirer_moncash" model="payment.acquirer">
+        <field name="name">Moncash</field>
+        <field name="image_128" type="base64" file="moncash/static/src/img/moncash_icon.png"/>
+        <!-- <field name="provider">moncash</field> -->
+        <field name="company_id" ref="base.main_company"/>
+        <field name="view_template_id" ref="moncash_form"/>
+
+    </record>
+</odoo>
